@@ -1,0 +1,39 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #dd5e89 , #f7bb97);
+    text-align: center;
+    align-items: center;
+}
+.linha {
+    display: inline-flex ;
+    top:0;
+    bottom: 0;
+    left: 0;
+    margin: 300px 600px;
+    text-align: center;
+}
+.casa1, .casa, .casa3{
+    background-color: rgb(29, 28, 28);
+    width: 150px;
+    height: 100px;
+    color: white;
+    border-radius: 1px;
+    text-align: center;
+    
+}
+.texto{
+font-size: 75px;
+text-align: center;
+}
+
+
+.casa1{
+    border-radius: 24px 0px 0px 24px;
+}
+.casa3{
+    border-radius: 0px 24px 24px 0px;
+}
+
